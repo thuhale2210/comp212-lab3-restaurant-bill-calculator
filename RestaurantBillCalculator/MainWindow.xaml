@@ -1,0 +1,49 @@
+﻿<Window x:Class="RestaurantBillCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RestaurantBillCalculator"
+        mc:Ignorable="d"
+        Title="Restaurant Bill Calculator" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical" Grid.Column="0" Margin="5,20,0,66" HorizontalAlignment="Left" Width="181" Grid.RowSpan="2">
+            <TextBlock Text="Choose your desired items:" />
+            <TextBlock Text="Beverage:" Margin="5, 10" />
+            <ComboBox x:Name="cmbBeverage" Width="150" SelectionChanged="ComboBox_SelectionChanged"/>
+            <TextBlock Text="Appetizer:" Margin="5, 10" />
+            <ComboBox x:Name="cmbAppetizer" Width="150" SelectionChanged="ComboBox_SelectionChanged"/>
+            <TextBlock Text="Main Course:" Margin="5, 10" />
+            <ComboBox x:Name="cmbMainCourse" Width="150" SelectionChanged="ComboBox_SelectionChanged"/>
+            <TextBlock Text="Dessert:" Margin="5, 10" />
+            <ComboBox x:Name="cmbDessert" Width="150" SelectionChanged="ComboBox_SelectionChanged"/>
+        </StackPanel>
+
+        <DataGrid x:Name="dataGrid" AutoGenerateColumns="False" ItemsSource="{Binding Items}" Margin="191,20,15,0" Grid.RowSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Width="150" Binding="{Binding Name}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Category" Width="150" Binding="{Binding Category}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Price" Width="100" Binding="{Binding Price, StringFormat=C}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Quantity" Width="80" Binding="{Binding Quantity}" IsReadOnly="False"/>
+                <DataGridTextColumn Header="Total" Width="100" Binding="{Binding Total, StringFormat=C}" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Right" Margin="10">
+            <TextBlock Text="SubTotal: " VerticalAlignment="Center"/>
+            <TextBox x:Name="txtSubTotal" Width="100" Margin="5" IsReadOnly="True"/>
+            <TextBlock Text="Tax: " VerticalAlignment="Center"/>
+            <TextBox x:Name="txtTax" Width="100" Margin="5" IsReadOnly="True"/>
+            <TextBlock Text="Total: " VerticalAlignment="Center"/>
+            <TextBox x:Name="txtTotal" Width="100" Margin="5" IsReadOnly="True"/>
+            <Button Content="Remove Selected" Width="110" Margin="5" Click="RemoveSelected_Click"/>
+            <Button Content="Clear Bill" Width="60" Margin="5" Click="ClearBill_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

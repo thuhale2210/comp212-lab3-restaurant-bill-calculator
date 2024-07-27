@@ -1,0 +1,15 @@
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\bin\Debug\RestaurantBillCalculator.exe.config
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\bin\Debug\RestaurantBillCalculator.exe
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\bin\Debug\RestaurantBillCalculator.pdb
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\RestaurantBillCalculator.csprojAssemblyReference.cache
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\App.g.cs
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\RestaurantBillCalculator_MarkupCompile.cache
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\RestaurantBillCalculator_MarkupCompile.lref
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\MainWindow.baml
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\RestaurantBillCalculator.g.resources
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\RestaurantBillCalculator.Properties.Resources.resources
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\RestaurantBillCalculator.csproj.GenerateResource.cache
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\RestaurantBillCalculator.csproj.CoreCompileInputs.cache
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\RestaurantBillCalculator.exe
+C:\Users\kietg\Downloads\Bong resume\301259611(Le)_LAB3\301259611(Le)_LAB3\RestaurantBillCalculator\RestaurantBillCalculator\obj\Debug\RestaurantBillCalculator.pdb
